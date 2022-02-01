@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<material name="Eyes_Eye" type="Eye">
+
+  <texture name="diffuseMap" semantic="DIFFUSEMAP">
+    <file>eyes_maitland_sean_d.bmp</file>
+  </texture>
+  <texture name="normalMap" semantic="NORMALMAP">
+    <file>eyes_maitland_sean_reflections_n.tga</file>
+  </texture>
+  <texture name="normalMap2" semantic="NORMALMAP2">
+    <file>eyes_maitland_sean_iris_n.tga</file>
+  </texture>
+  <texture name="normalMap3" semantic="NORMALMAP3">
+    <file>eyes_maitland_sean_reflections_n.tga</file>
+  </texture>
+ 
+ 
+  <parameter name="IRIS_DEPTH" semantic="IRIS_DEPTH">
+    <float>0.000464</float>
+  </parameter>
+  <parameter name="IRIS_RADIUS" semantic="IRIS_RADIUS">
+    <float>0.00113</float>
+  </parameter>
+  <parameter name="MATERIAL_TYPE" semantic="MATERIAL_TYPE">
+    <float>1</float>
+  </parameter>
+ 
+  
+  <parameter name="MATERIAL_TYPE" semantic="MATERIAL_TYPE">
+    <float>1</float>
+  </parameter>
+
+  <parameter name="BUMP_HEIGHT" semantic="BUMP_HEIGHT">
+    <float>2</float>
+  </parameter>
+
+  <parameter name="lightPos" semantic="LIGHTPOS">
+    <float4>0 0 0 0</float4>
+  </parameter>
+
+  <parameter name="ambiColor" semantic="AMBICOLOR">
+    <float4>0.1 0.1 0.1 1</float4>
+  </parameter>
+
+  <parameter name="USE_AA_REPROJECTION" semantic="USE_AA_REPROJECTION">
+    <float>0</float>
+  </parameter>
+
+  <parameter name="PLAYER_MATERIAL_ID" semantic="PLAYER_MATERIAL_ID">
+	<float>2</float>
+  </parameter>
+ </material>

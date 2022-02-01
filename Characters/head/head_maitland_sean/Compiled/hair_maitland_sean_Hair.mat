@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material name="head_maitland_sean_Hair" type="Hair">
+
+  <texture name="diffuseMap" semantic="DIFFUSEMAP">
+    <file>hair_maitland_sean_d.tga</file>
+  </texture>
+  <texture name="normalMap" semantic="NORMALMAP">
+    <file>hair_maitland_sean_n.tga</file>
+  </texture>
+  <texture name="normalMap2" semantic="NORMALMAP2">
+    <file>hair_maitland_sean_f.bmp</file>
+  </texture>
+
+  <parameter name="SHININESS" semantic="SHININESS">
+    <float>0.5</float>
+  </parameter>
+  
+  <parameter name="USE_ALPHA" semantic="USE_ALPHA">
+    <float>1</float>
+  </parameter>
+  
+  <parameter name="ALPHA_MAX" semantic="ALPHA_MAX">
+   <float>0.85</float>
+ </parameter>
+
+ <parameter name="ALPHA_STEEPNESS" semantic="ALPHA_STEEPNESS">
+   <float>0.95</float>
+ </parameter>
+
+ <parameter name="ALPHA_MAX_FAR" semantic="ALPHA_MAX_FAR">
+   <float>0.05</float>
+ </parameter> 
+ 
+  <parameter name="PLAYER_MATERIAL_ID" semantic="PLAYER_MATERIAL_ID">
+    <float>2</float>
+  </parameter>
+</material>

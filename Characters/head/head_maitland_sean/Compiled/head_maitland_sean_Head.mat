@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material name="head_maitland_sean_Head" type="DiffuseNormalSpec">
+   
+   <texture name="diffuseMap" semantic="DIFFUSEMAP">
+    <file>head_maitland_sean_d.tga</file>
+  </texture>
+  <texture name="normalmap" semantic="NORMALMAP">
+    <file>head_maitland_sean_n.tga</file>
+  </texture>
+  <texture name="infomap" semantic="INFOMAP">
+    <file>head_maitland_sean_infomap.tga</file>
+  </texture>
+
+<parameter name="USE_ALPHA" semantic="USE_ALPHA">
+	<float>1</float>
+  </parameter>
+  
+  <parameter name="SSS_PROFILE" semantic="SSS_PROFILE">
+    <float>1</float>
+  </parameter>
+
+<parameter name="BUMP HEIGHT" semantic="BUMP HEIGHT">
+  <float>2.5</float>
+</parameter>
+  
+  <parameter name="SSS_RADIUS" semantic="SSS_RADIUS">
+    <float>3.3</float>
+  </parameter> 
+<parameter name="THICKNESS" semantic="THICKNESS">
+   <float>1.0</float>
+ </parameter>    
+  
+ <parameter name="PLAYER_MATERIAL_ID" semantic="PLAYER_MATERIAL_ID">
+  <float>1</float>
+ </parameter>
+ 
+ 
+</material>
